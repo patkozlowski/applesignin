@@ -19,12 +19,15 @@
 		  <script type="text/javascript">
 
         	
-		document.getElementById('appleid-signin').click();
+		//document.getElementById('appleid-signin').click();
             const buttonElement = document.getElementById('appleid-signin');
             buttonElement.addEventListener('click', () => {
 		console.log('test');	
                // AppleID.auth.signIn();
             });
+			  window.onload = function(){
+  document.getElementById('appleid-signin'').click();
+}
         </script>
     </body>
 </html>
